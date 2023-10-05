@@ -26,7 +26,7 @@ export class FirebaseserviceService {
     });
   }
   logout():Promise<void>{   
-    //ppjj
+    //ppjjjjjjj
    return  this.firebaseauth.signOut();
     localStorage.removeItem('user')
   }
