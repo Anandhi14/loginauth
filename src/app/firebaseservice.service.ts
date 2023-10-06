@@ -25,8 +25,7 @@ export class FirebaseserviceService {
       localStorage.setItem("user", JSON.stringify(res.user));
     });
   }
-  logout():Promise<void>{   
-    //ppjjjjjjjjjjj
+  logout():Promise<void>{  
    return  this.firebaseauth.signOut();
     localStorage.removeItem('user')
   }
