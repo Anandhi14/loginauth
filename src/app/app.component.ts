@@ -7,7 +7,7 @@ import { FirebaseApps } from '@angular/fire/app';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
- 
+ title="hello"
   }
 
   
